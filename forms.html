@@ -4,9 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kontakta forma.</title>
+    <link rel="stylesheet" href="css2.css" />
   </head>
   <body>
     <h1>Sazinies ar mums.</h1>
-    <form></form>
+    <h4>Obligāti Izpildei Ir Apzīmēti Ar (*)</h4>
+    <form>
+      <label for="name">(*)Ievadiet Vārdu:</label><br />
+      <input type="text" id="name" /><br />
+      <label for="epasts">(*)Ievadiet E-pastu:</label><br />
+      <input type="text" id="epasts" /><br />
+      <h3>(*)Izvēlies Tēmu</h3>
+
+      <input type="radio" />
+      <label>Tehniskais atbalsts</label><br />
+      <input type="radio" />
+      <label>Piedāvājumi</label><br />
+      <input type="radio" />
+      <label>Vispārīgi jautājumi</label><br />
+      <br />
+      <input type="checkbox" />
+      <label>Piekrītu Saņemt Jaunumus</label><br />
+      <br />
+
+      <label for="comment">Ievadiet Ziņojumu:</label><br />
+      <textarea id="comment" cols="50" rows="8"></textarea><br />
+      <br />
+      <button type="Iesniegt">Iesniegt</button>
+      <input type="submit" value="send" />
+    </form>
   </body>
 </html>
